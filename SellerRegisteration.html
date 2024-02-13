@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="title"><span>Seller Registration</span></div>
+            <form action="#">
+                <div class="row">
+                    <input type="text" placeholder="Aadhar Number" required>
+                </div>
+                <div class="row">
+                    <select name="" id="dropdown" required>
+                        <option value="" disabled selected>Food Crops</option>
+                        <option value="">Kharif Crops</option>
+                        <option value="">Rabi Crops</option>
+                        <option value="">Cash Crops</option>
+                    </select>
+                </div>
+                <div style="display: flex; margin-bottom:15px;">
+                    <label style="margin-right: 10px;">Property Owned By</label>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"
+                            checked>
+                        <label class="form-check-label" for="radio1">Self</label>
+                    </div>
+                    <div class="form-check" style="margin-left: 10px;">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">
+                        <label class="form-check-label" for="radio2">Lease</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="text" placeholder="Aadhar Number" required>
+                </div>
+                <label>Property Document</label>
+                <div class="input-group">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                </div>
+                <div class="row button mt-4">
+                    <button type="submit" class="bg-success"><a href="OTP.html" style="text-decoration:none;color: white;">Register</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
